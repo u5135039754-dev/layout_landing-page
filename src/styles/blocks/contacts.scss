@@ -32,6 +32,10 @@
   }
 }
 
+.contacts__title {
+  font-weight: 600;
+}
+
 .contacts__details {
   &-section {
     margin-bottom: 24px;
@@ -75,6 +79,8 @@
   line-height: 27px;
   text-align: center;
   transition: 0.3s;
+  color: #1d1d1d;
+  cursor: pointer;
 
   // width: 90%;
 

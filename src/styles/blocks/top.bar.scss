@@ -1,23 +1,28 @@
 .top-bar {
   padding-block: 24px;
+  margin-bottom: 8px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   @include on-tablet {
-    padding-block: 64px;
+    padding-block: 36px;
+  }
+
+  @include on-desktop {
+    margin-bottom: 24px;
   }
 
   &__logo {
     display: flex;
 
     @include on-tablet {
-      height: 56px;
+      height: 38px;
     }
 
     @include on-desktop {
-      height: 56px;
+      height: 38px;
     }
   }
 
@@ -30,5 +35,21 @@
   &__icons {
     display: flex;
     gap: 24px;
+  }
+}
+
+.--white {
+  @include on-tablet {
+    height: 56px;
+  }
+
+  @include on-desktop {
+    height: 56px;
+  }
+}
+
+.--black {
+  @include on-desktop {
+    height: 56px;
   }
 }
