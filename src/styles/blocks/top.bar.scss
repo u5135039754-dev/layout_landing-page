@@ -1,6 +1,6 @@
 .top-bar {
   padding-block: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 
   display: flex;
   justify-content: space-between;
@@ -8,6 +8,7 @@
 
   @include on-tablet {
     padding-block: 36px;
+    margin-bottom: 8px;
   }
 
   @include on-desktop {

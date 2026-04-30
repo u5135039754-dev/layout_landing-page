@@ -11,7 +11,7 @@
 }
 
 @mixin content-padding-inline() {
-  padding-inline: 20px;
+  padding-inline: 30px;
 
   @include on-tablet {
     padding-inline: 72px;

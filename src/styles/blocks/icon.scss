@@ -16,6 +16,11 @@
     background-image: url(../../images/icons/Icon-Phone-call.svg);
   }
 
+  &__phone {
+    display: flex;
+    gap: 20px;
+  }
+
   &--menu {
     background-image: url(../../images/icons/Icon-Burger-menu.svg);
     transition: 0.3s;
@@ -27,5 +32,36 @@
 
   &--close {
     background-image: url(../../images/icons/Icon-Close.svg);
+  }
+
+  &--phone-number {
+    opacity: 0;
+    margin-top: 8px;
+
+    height: 16px;
+    width: 140px;
+    text-align: center;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: 0.3s;
+    transform: translateX(30%);
+  }
+
+  &--phone-number:hover {
+    text-shadow: 0 0 20px #e8e8f066;
+  }
+
+  &__phone:hover &--phone-number {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
