@@ -1,4 +1,4 @@
-🚴 #MyBike Landing Page – Modern Web Store
+#MyBike Landing Page – Modern Web Store
 
 This project showcases a simple and modern bike store landing page. The site provides clean navigation, a responsive layout, and detailed product presentation.
 
@@ -6,14 +6,14 @@ This project showcases a simple and modern bike store landing page. The site pro
 
 🎨 Design Refrence [Figma](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
 
-📌 #Features
+#Features
 - Responsive and modern UI
 - Clean and minimal design
 - Product-focused layout
 - SCSS-based styling structure
 - Easy to customize and extend
 
-🛠 #Technologies Used
+#Technologies Used
 #Core
 - HTML5 – Markup structure
 - SCSS (v1.93.2) – Styling and layout
@@ -22,7 +22,7 @@ This project showcases a simple and modern bike store landing page. The site pro
 
 Follow these instructions to run the project locally.
 
-✅ #Prerequisites
+#Prerequisites
 
 Make sure you have installed:
 
@@ -34,7 +34,7 @@ Check versions:
 node -v
 npm -v
 
-📥 #Installation
+#Installation
 
 Clone the repository:
 git clone https://github.com/your-username/layout_landing-page.git
