@@ -1,4 +1,4 @@
-#MyBike Landing Page – Modern Web Store
+# MyBike Landing Page – Modern Web Store
 
 This project showcases a simple and modern bike store landing page. The site provides clean navigation, a responsive layout, and detailed product presentation.
 
